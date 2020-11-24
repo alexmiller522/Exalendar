@@ -1,0 +1,21 @@
+<style type="text/css">   
+
+h1{
+    font-size: 800%;
+    color: red;
+}
+p{
+    font-size: 150%;
+    width: 10%;
+    margin: 2%;
+    float: left;
+    
+    border-right: 1px solid red;
+}
+
+.hlLines{
+	border-top: 6px solid black;
+	height: 100%;	
+
+}
+</style>
