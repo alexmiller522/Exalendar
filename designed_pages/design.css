@@ -26,6 +26,6 @@ table{
     width: 100%;
 }
 
-grid #nums, td {
-    border: 1px solid black;
+grid #nums, td{
+        border: 1px solid black;
 }
