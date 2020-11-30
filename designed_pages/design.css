@@ -20,12 +20,11 @@ body{
 #days, td {
     border: 1px solid black;
     text-transform: uppercase;
+    border-collapse: collapse;
     font-size: 40px;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 table{
     width: 100%;
-}
-
-grid #nums, td{
-        border: 1px solid black;
 }
