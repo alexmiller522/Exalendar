@@ -1,21 +1,31 @@
-<style type="text/css">   
-
-h1{
-    font-size: 800%;
-    color: red;
+body{
+    background: #d8d5d5;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 0px;
 }
-p{
-    font-size: 150%;
-    width: 10%;
-    margin: 2%;
-    float: left;
-    
-    border-right: 1px solid red;
+#topHeader {
+    background: #892525;
+    height: 30%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    #topHeader #name {
+        font-size: 500%;
+        color: #f7e9e9;
+    }
+#days, td {
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+table{
+    width: 100%;
 }
 
-.hlLines{
-	border-top: 6px solid black;
-	height: 100%;	
-
+grid #nums, td {
+    border: 1px solid black;
 }
-</style>
