@@ -7,6 +7,7 @@ body{
     padding: 0px;
     padding-top: 2%;
 }
+
 #topHeader {
     background: #892525;
     height: 30%;
@@ -15,6 +16,7 @@ body{
     margin-left: 20%;
     margin-right: 20%;
 }
+
     #topHeader #name {
         font-size: 500%;
         vertical-align: middle;
@@ -22,6 +24,7 @@ body{
         white-space: nowrap;
         color: #ffffff;
     }
+
     #topHeader #name * {
         display: inline;
     }
@@ -34,7 +37,6 @@ body{
     border-collapse: collapse;
     
     margin-top: 1%;
-    margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -52,12 +54,15 @@ body{
         font-size:10px;
         color: black;
         vertical-align: middle;
-        height: 700px;
+        height: 600px;
+        padding-bottom:3%;
         border: 1px solid #892525;
     }
+
 .login{
     background-color: #d4baba;
     padding-bottom:5px;
+    font-size:200%;
 }
 
 button {
@@ -91,10 +96,13 @@ button {
     margin-top: 2%;
     font-size:50%;
 }
+
 currentWords {
     display: flex;
     justify-content: space-between;
 }
+
 button:hover{
     background-color: #651f1f;
 }
+
