@@ -65,6 +65,7 @@ button {
     background-color: rgba(0, 0, 0, 0.00);
     background-repeat: no-repeat;
     border: none;
+    outline: none;
 }
 
 h1 {
@@ -95,4 +96,8 @@ currentWords {
 }
 button:hover{
     background-color: #651f1f;
+}
+
+#bottomRec {
+    max-width: 10px;
 }
