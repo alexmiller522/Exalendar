@@ -87,8 +87,9 @@ button {
     padding: 0px 0px;
     color: aliceblue;
     border-radius: 50%;
-    width: 10%;
-    font-size:100%;
+    width: 5%;
+    margin-top: 2%;
+    font-size:50%;
 }
 currentWords {
     display: flex;
@@ -96,8 +97,4 @@ currentWords {
 }
 button:hover{
     background-color: #651f1f;
-}
-
-#bottomRec {
-    max-width: 10px;
 }
