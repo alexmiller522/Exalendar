@@ -1,5 +1,5 @@
 function changeWords1() {
-    var x = document.getElementById("currentWords");
+    var x = document.getElementById("curr");
     if (x.innerHTML == "EXALENDAR") {
         x.innerHTML = "An RCOS Project";
     } else if (x.innerHTML == "An RCOS Project") {
@@ -9,7 +9,7 @@ function changeWords1() {
     }
 }
 function changeWords2() {
-    var x = document.getElementById("currentWords");
+    var x = document.getElementById("curr");
     if (x.innerHTML == "EXALENDAR") {
         x.innerHTML = "An Open Source Project";
     } else if (x.innerHTML == "An Open Source Project") {
