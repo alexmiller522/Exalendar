@@ -5,12 +5,24 @@
     <title>LoginPage</title>
 
     <link rel="stylesheet" href="design.css" />
+    <script src="loginScript.js"></script>
 </head>
 <body>
     <div id="EntireCal">
         <div id="topHeader">
             <div id="name">
-                <span class="header" id="label"> EXALENDAR </span>
+                <span class="header" id="label">
+                    <button onclick="changeWords1()">
+                        <a href="#" class="previous round">&#8249;</a>
+                    </button>
+                    <div id="currentWords">EXALENDAR</div>
+                    
+
+                    <button onclick="changeWords2()">
+                        <a href="#" class="next round">&#8250;</a>
+                    </button>
+                </span>
+            </div>
             </div>
         </div>
         <table class="tableDays">

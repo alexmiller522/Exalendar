@@ -55,6 +55,13 @@ body{
     padding-bottom:5px;
 }
 
+button {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    background-repeat: no-repeat;
+    border: none;
+}
+
 h1 {
     background: #892525;
     padding-top: 3%;
@@ -67,4 +74,22 @@ hr {
     border-top: 1px solid #892525;
 }
 
-
+a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #ae4545;
+    display: inline-block;
+    padding: 0px 20px;
+    color: aliceblue;
+}
+currentWords {
+    display: flex;
+    justify-content: space-between;
+}
+a:hover{
+    background-color: #651f1f;
+}
+.round{
+    border-radius: 50%;;
+}
