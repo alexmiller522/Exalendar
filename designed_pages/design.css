@@ -61,7 +61,7 @@ body{
 
 .login{
     background-color: #d4baba;
-    padding-bottom:5px;
+    padding-bottom:5%;
     font-size:200%;
 }
 
@@ -82,7 +82,8 @@ h1 {
 }
 
 hr {
-    margin-top:0px;
+    margin-top:-7%;
+    padding-top: 0px;
     border-top: 1px solid #892525;
 }
 
